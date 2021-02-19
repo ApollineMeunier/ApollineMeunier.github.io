@@ -1,0 +1,225 @@
+body{
+font-family: 'Montserrat', sans-serif;
+margin: 0px auto;
+}
+.banner{
+height: 85vh;
+width: 100%;
+background-image: url(images/banner.jpg);
+background-size: cover;
+background-position: center;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.banner img{
+max-width: 100%;
+max-height: 45%;
+object-fit: cover;
+border-radius: 300px 300px;
+background-size: contain;
+display: inline-block;
+margin: 20px auto;
+}
+
+.styled {background-image: linear-gradient(to right, #EECDA3 0%, #EF629F  51%, #EECDA3  100%)}
+
+.styled {
+margin: 10px;
+padding: 20px 60px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.6s;
+background-size: 205% auto;
+color: white;
+border-radius: 80px;
+font-size: 1.1em;
+}
+.styled:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+
+
+.contenu{
+display: flex; 
+flex-direction: row; 
+margin: 10px;
+}
+.experience{
+display: flex; 
+flex-direction: column; 
+width: 50%;
+box-shadow: 0px 0px 20px 0px #FBE8F4;
+padding: 20px 20px;
+margin: 10px;
+border-radius: 30px;
+}
+.experience h2{
+text-align: center;
+}
+.bloc{
+display: flex; 
+flex-direction: column; 
+width: 50%;
+}
+.competences{
+display: flex; 
+flex-direction: column; 
+box-shadow: 0px 0px 20px 0px #FBE8F4;
+padding: 20px 20px;
+margin: 10px;
+border-radius: 30px;
+height: auto;
+}
+.ecole{
+display: flex; 
+flex-direction: column; 
+box-shadow: 0px 0px 20px 0px #FBE8F4;
+padding: 20px 20px;
+margin: 10px;
+border-radius: 30px;
+}
+.ecole h2{
+text-align: center;
+}
+.competences h2{
+text-align: center;
+}
+.aston, .gr, .merveilleux, .pm, .mmf{
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+margin: 3% 0;
+}
+.aston h5, .gr h5, .merveilleux h5, .pm h5, .mmf h5{
+text-align: center;
+}
+.mmf h5 a{
+text-decoration:none;
+color: black;
+}
+.aston h6, .gr h6, .merveilleux h6, .pm h6, .mmf h6{
+text-align: center;
+}
+.kedge, .ebs{
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+margin: 3% 0;
+}
+.kedge h5, .ebs h5{
+text-align: center;
+}
+.kedge h6, .ebs h6{
+text-align: center;
+}
+.aston, .kedge{
+margin-top: 60px;
+}
+.contenu2{
+display: flex;
+flex-direction: row;
+}
+.langues{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 50%;
+}
+.langues img{
+width: 50px;
+margin: 5px;
+height: 50px;
+}
+.french, .uk, .spanish{
+display: flex;
+flex-direction: row;
+width: 50%;
+margin : 5% 0;
+}
+.french p, .uk p, .spanish p{
+margin-top: 20px;
+margin-left: 20px;
+}
+.tools{
+width: 50%;
+margin: 3% 0;
+}
+.tools img{
+width: 45px;
+margin: 8px;
+height: 45px;
+}
+.microsoft, .html, .css, .ps{
+display: flex;
+flex-direction: row;
+width: 50%;
+margin: 10% 0;
+}
+.microsoft p, .html p, .css p, .ps p{
+margin-top: 20px;
+margin-left: 15px;
+}
+.hobbies{
+display: flex;
+flex-direction: column;
+box-shadow: 0px 0px 20px 0px #FBE8F4;
+padding: 20px 20px;
+margin: 10px;
+border-radius: 30px;
+height: 25%;
+}
+.hobbies h2{
+text-align: center;
+}
+ol{
+color: white;
+}
+.icones{
+display: flex;
+flex-direction: row;
+padding: 4em;
+}
+.icones img{
+width: 65px;
+margin: 8px;
+height: 65px;
+margin: auto;
+}
+.coordonnées{
+display: flex;
+flex-direction: column;
+box-shadow: 0px 0px 20px 0px #FBE8F4;
+padding: 20px 20px;
+margin: 10px;
+border-radius: 30px;
+height: 25%;
+}
+.coordonnées h2{
+text-align: center;
+}
+.listecoordonnées{
+margin-top: 60px;
+line-height: 3em;
+}
+footer{
+display: flex;
+justify-content: center;
+padding: 70px;
+background-color: #fbf5f8;
+background-image: linear-gradient(180deg, #fbf5f8 0%, #fbe1ef 100%);
+}
+footer a{
+font-size: 2em;
+}
+footer a:hover, a:visited, a:active{
+color:#000;
+text-decoration:none;
+font-family: 'Montserrat', sans-serif;
+color: black;
+font-size: 2.5em;
+}
