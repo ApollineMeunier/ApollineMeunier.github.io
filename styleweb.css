@@ -102,6 +102,20 @@ margin: 3% 0;
 .aston h5, .gr h5, .merveilleux h5, .pm h5, .mmf h5{
 text-align: center;
 }
+
+.astonlogo{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 19%;
+}
+
+.astonlogo img{
+height: 3%;
+width: 15%;
+margin: 0 5%;
+}
+
 .aston a{
 text-decoration: none;
 color: black;
