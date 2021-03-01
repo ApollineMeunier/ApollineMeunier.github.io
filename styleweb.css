@@ -56,7 +56,7 @@ flex-direction: column;
 width: 50%;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
-margin: 10px;
+margin: 1em;
 border-radius: 30px;
 height: auto;
 }
@@ -74,7 +74,7 @@ display: flex;
 flex-direction: column; 
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
-margin: 10px;
+margin: 1em;
 border-radius: 30px;
 height: auto;
 }
@@ -83,7 +83,7 @@ display: flex;
 flex-direction: column; 
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
-margin: 10px;
+margin: 1em;
 border-radius: 30px;
 height: auto;
 }
@@ -247,7 +247,7 @@ display: flex;
 flex-direction: column;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
-margin: 10px;
+margin: 1em;
 border-radius: 30px;
 height: auto;
 }
@@ -273,7 +273,7 @@ display: flex;
 flex-direction: column;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
-margin: 10px;
+margin: 1em;
 border-radius: 30px;
 height: auto;
 }
