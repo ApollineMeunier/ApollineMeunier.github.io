@@ -156,6 +156,19 @@ width: 4em;
 margin: -2% 5%;
 }
 
+.mmflogo{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 19%;
+}
+
+.mmflogo img{
+height: 3em;
+width: 4em;
+margin: -3% 5%;	
+}
+
 
 .aston a{
 text-decoration: none;
