@@ -5,7 +5,7 @@ margin: 0px auto;
 .banner{
 height: 85vh;
 width: 100%;
-background-image: url(https://user-images.githubusercontent.com/79259470/108601017-a11b2280-739a-11eb-879c-31af30f60b2a.jpg);
+background-image: url(images/banner.jpg);
 background-size: cover;
 background-position: center;
 text-decoration: none;
@@ -23,9 +23,8 @@ background-size: contain;
 display: inline-block;
 margin: 20px auto;
 }
-
-.styled {background-image: linear-gradient(to right, #EECDA3 0%, #EF629F  51%, #EECDA3  100%)}
-
+.styled {background-image: linear-gradient(to right, #EECDA3 0%, #EF629F  51%, #EECDA3  100%)
+}
 .styled {
 margin: 10px;
 padding: 20px 60px;
@@ -42,17 +41,15 @@ background-position: right center; /* change the direction of the change here */
 color: #fff;
 text-decoration: none;
 }
-
-
 .contenu{
-display: flex; 
-flex-direction: row; 
+display: flex;
+flex-direction: row;
 margin: 10px;
 height: 100%;
 }
 .experience{
-display: flex; 
-flex-direction: column; 
+display: flex;
+flex-direction: column;
 width: 50%;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
@@ -64,23 +61,23 @@ height: auto;
 text-align: center;
 }
 .bloc{
-display: flex; 
-flex-direction: column; 
+display: flex;
+flex-direction: column;
 width: 50%;
 height: 100%;
 }
 .competences{
-display: flex; 
-flex-direction: column; 
+display: flex;
+flex-direction: column;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
 margin: 1em;
 border-radius: 30px;
-height: auto;
+height: 20%;
 }
 .ecole{
-display: flex; 
-flex-direction: column; 
+display: flex;
+flex-direction: column;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
 margin: 1em;
@@ -94,8 +91,8 @@ text-align: center;
 text-align: center;
 }
 .aston, .gr, .merveilleux, .pm, .mmf{
-display: flex; 
-flex-direction: column; 
+display: flex;
+flex-direction: column;
 justify-content: center;
 margin: 3% 0;
 }
@@ -105,75 +102,76 @@ text-align: center;
 
 .astonlogo{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: center;
-margin-left: 19%;
 }
 
-.astonlogo img{
-height: 2em;
-width: 5em;
-margin: 0 5%;
-}
-
-.grlogo{
+.h5imgaston img{
 display: flex;
-flex-direction: row;
-justify-content: center;
-margin-left: 19%;
+height: 5%;
+width: 18%;
+margin: auto;
+padding: 1%;
 }
-
-.grlogo img{
-height: 4em;
-width: 6em;
-margin: -1% 5%;	
-}
-
-.fredlogo{
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-left: 19%;
-}
-
-.fredlogo img{
-height: 4em;
-width: 4em;
-margin: -2% 5%;	
-}
-
-
-.pmlogo{
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-left: 19%;
-}
-
-.pmlogo img{
-height: 3em;
-width: 4em;
-margin: -2% 5%;
-}
-
-.mmflogo{
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-left: 19%;
-}
-
-.mmflogo img{
-height: 5em;
-width: 5em;
-margin: -3% 5%;	
-}
-
 
 .aston a{
 text-decoration: none;
 color: black;
 }
+
+.grlogo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.h5imggr img{
+display: flex;
+height: 3%;
+width: 15%;
+margin: auto;	
+}
+
+.pmlogo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.h5imgpm img{
+display: flex;
+height: 3%;
+width: 15%;
+margin: auto;
+}
+
+.fredlogo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.h5imgfred img{
+display: flex;
+height: 3%;
+width: 15%;
+margin: auto;	
+}
+
+
+.mmflogo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.h5imgmmf img{
+display: flex;
+height: 3%;
+width: 15%;
+margin: -1em 15em;	
+}
+
 
 .mmf h5 a{
 text-decoration:none;
@@ -181,10 +179,11 @@ color: black;
 }
 .aston h6, .gr h6, .merveilleux h6, .pm h6, .mmf h6{
 text-align: center;
+margin-top: 1em;
 }
 .kedge, .ebs{
-display: flex; 
-flex-direction: column; 
+display: flex;
+flex-direction: column;
 justify-content: center;
 margin: 3% 0;
 }
@@ -215,6 +214,10 @@ height: 20%;
 
 .softskills h2{
 text-align: center;
+}
+
+.softskillslist{
+	margin: 5% 0;
 }
 
 .langues{
@@ -264,7 +267,7 @@ box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
 margin: 1em;
 border-radius: 30px;
-height: auto;
+height: 20%;
 }
 .hobbies h2{
 text-align: center;
@@ -290,7 +293,7 @@ box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
 margin: 1em;
 border-radius: 30px;
-height: auto;
+height: 20%;
 }
 .coordonnées h2{
 text-align: center;
@@ -299,20 +302,72 @@ text-align: center;
 margin-top: 60px;
 line-height: 3em;
 }
+
+.tel img{
+width: 3em;
+margin: 2em;
+height: 3em;
+margin: .5em;
+}
+
+.mail img{
+width: 3em;
+margin: 2em;
+height: 3em;
+margin: .5em;
+}
+
+.adresse img{
+width: 3em;
+margin: 2em;
+height: 3em;
+margin: .5em;
+}
+
+.permis img{
+width: 3em;
+margin: 2em;
+height: 3em;
+margin: .5em;
+}
+
+.anniv img{
+width: 3em;
+margin: 2em;
+height: 3em;
+margin: .5em;
+}
+
 footer{
 display: flex;
+flex-direction: row;
 justify-content: center;
-padding: 70px;
 background-color: #fbf5f8;
 background-image: linear-gradient(180deg, #fbf5f8 0%, #fbe1ef 100%);
 }
+
+
+.imgfooter{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.imgfooter img{
+width: 20%;
+height: 100%;
+align-items: center;
+}
+
 footer a{
-font-size: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-footer a:hover, a:visited, a:active{
-color:#000;
-text-decoration:none;
-font-family: 'Montserrat', sans-serif;
-color: black;
-font-size: 2.5em;
-}
+
+
+
+
+
+
