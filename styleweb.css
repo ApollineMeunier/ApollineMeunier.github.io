@@ -104,12 +104,15 @@ text-align: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
+align-items: center;
 }
 
 .h5imgaston img{
 display: flex;
-height: 50px;
-width: 65px;
+height: 20px;
+width: 635px;
+align-items: center;
+margin: auto;
 }
 
 .aston a{
