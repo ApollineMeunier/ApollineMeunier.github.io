@@ -188,7 +188,8 @@ margin: 3% 0;
 .h5imgkedge img{
 display: flex;
 width: 15%;
-margin: auto;	
+margin: auto;
+padding: .1em;
 }
 
 .h5imgebs img{
