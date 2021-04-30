@@ -153,15 +153,77 @@
 
 				<h2>Soft skills</h2>
 				<div class="softskillslist">
-				<ul style="list-style-type:none;">
-					<li>Adaptabilité</li>
-					<li>Esprit d'équipe</li>
-					<li>Intelligence émotionnelle</li>
-					<li>Sens de l'humour</li>
-					<li>Esprit critique</li>
-					<li>Autonomie</li>
-					<li>Créativité</li>
-				</ul>
+				<style>
+#chartdiv {
+  width: 100%;
+  height: 15em;
+ 
+}
+</style>
+
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+var chart = am4core.create("chartdiv", am4plugins_wordCloud.WordCloud);
+chart.fontFamily = "Montserrat";
+var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
+series.randomness = 0.1;
+series.rotationThreshold = 0.5;
+
+series.data = [ {
+    "tag": "ADAPTABILITÉ",
+    "count": "1765836"
+},  {
+    "tag": "ESPRIT CRITIQUE",
+    "count": "1263946"
+}, {
+    "tag": "AUTONOMIE",
+    "count": "1174721"
+}, {
+    "tag": "INTELLIGENCE ÉMOTIONNELLE",
+    "count": "1116769"
+}, {
+    "tag": "SENS DE L'HUMOUR",
+    "count": "944983"
+}, {
+    "tag": "ESPRIT D'ÉQUIPE",
+    "count": "805679"
+},  {
+    "tag": "CRÉATIVITÉ",
+    "count": "574684"
+},  ];
+
+series.dataFields.word = "tag";
+series.dataFields.value = "count";
+
+series.heatRules.push({
+ "target": series.labels.template,
+ "property": "fill",
+ "min": am4core.color("#0000CC"),
+ "max": am4core.color("#CC00CC"),
+ "dataField": "value"
+});
+
+
+
+}); // end am4core.ready()
+</script>
+
+<!-- HTML -->
+<div id="chartdiv"></div>
+
+				
 			</div>
 					</div>
 					<div class="hobbies">
