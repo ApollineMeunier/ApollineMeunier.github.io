@@ -109,8 +109,7 @@ align-items: center;
 
 .h5imgaston img{
 display: flex;
-height: 20px;
-width: 635px;
+height: 70px;
 align-items: center;
 margin: auto;
 }
@@ -128,8 +127,7 @@ justify-content: center;
 
 .h5imggr img{
 display: flex;
-height: 20%;
-width: 10%;
+width: 20%;
 margin: auto;	
 }
 
@@ -141,7 +139,6 @@ justify-content: center;
 
 .h5imgpm img{
 display: flex;
-height: 3%;
 width: 15%;
 margin: auto;
 }
@@ -154,7 +151,6 @@ justify-content: center;
 
 .h5imgfred img{
 display: flex;
-height: 3%;
 width: 15%;
 margin: auto;	
 }
