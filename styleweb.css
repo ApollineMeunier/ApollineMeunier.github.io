@@ -90,13 +90,13 @@ text-align: center;
 .competences h2{
 text-align: center;
 }
-.aston, .gr, .merveilleux, .pm, .mmf{
+.aston, .gr, .merveilleux, .pm, .mmf, .hermes{
 display: flex;
 flex-direction: column;
 justify-content: center;
 margin: 3% 0;
 }
-.aston h5, .gr h5, .merveilleux h5, .pm h5, .mmf h5{
+.aston h5, .gr h5, .merveilleux h5, .pm h5, .mmf h5, .hermes h5{
 text-align: center;
 }
 
@@ -119,6 +119,12 @@ text-decoration: none;
 color: black;
 }
 
+.hermeslogo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
 .grlogo{
 display: flex;
 flex-direction: column;
@@ -126,6 +132,12 @@ justify-content: center;
 }
 
 .h5imggr img{
+display: flex;
+width: 20%;
+margin: auto;	
+}
+
+.h5imghermes img{
 display: flex;
 width: 20%;
 margin: auto;	
