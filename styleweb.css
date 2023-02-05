@@ -229,11 +229,12 @@ height: 100%;
 .softskills{
 display: flex;
 flex-direction: column;
+width: 50%;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
 margin: 1em;
 border-radius: 30px;
-height: 20%;
+height: auto;
 }
 
 .softskills h2{
@@ -266,12 +267,14 @@ margin-left: 20px;
 .hobbies{
 display: flex;
 flex-direction: column;
+width: 50%;
 box-shadow: 0px 0px 20px 0px #FBE8F4;
 padding: 20px 20px;
 margin: 1em;
 border-radius: 30px;
-height: 20%;
+height: auto;
 }
+
 .hobbies h2{
 text-align: center;
 }
