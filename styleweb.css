@@ -266,24 +266,12 @@ margin-top: 20px;
 margin-left: 20px;
 }
 .tools{
-width: 50%;
-margin: 3% 0;
-}
-.tools img{
-width: 45px;
-margin: 8px;
-height: 45px;
-}
-.microsoft, .html, .css, .ps{
 display: flex;
 flex-direction: row;
 width: 50%;
-margin: 10% 0;
+margin : 5% 0;
 }
-.microsoft p, .html p, .css p, .ps p{
-margin-top: 20px;
-margin-left: 15px;
-}
+
 .hobbies{
 display: flex;
 flex-direction: column;
